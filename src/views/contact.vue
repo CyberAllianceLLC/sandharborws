@@ -4,10 +4,10 @@
       <span class="pull-left"><i class="fa fa-lg fa-anchor"></i></span>
       <h4>Contact us</h4>
     </div>
-    <div class="body">
+    <div class="description">
       <div class="row">
         <div class="col-md-6">
-
+          <img src="">
         </div>
         <div class="col-md-6">
           <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
@@ -36,8 +36,8 @@
       <span class="pull-left"><i class="fa fa-lg fa-anchor"></i></span>
       <h4>About Us</h4>
     </div>
-    <div class="body">
-      <p class="mission">
+    <div class="description">
+      <p>
         Sand Harbor Water Sports takes pride in delivering and creating a safe and memorable aquatic experience on Lake
         Tahoe's majestic waters.
         <br/>
@@ -57,23 +57,6 @@
 
 <style lang="less" rel="stylesheet/less">
   .contact {
-    .title {
-      background-color: #303300;
-      border-color: #303300;
-      color: #FFF200;
-      h4 {
-        padding: 0 30px;
-        margin: 0;
-      }
-    }
-    .body {
-      i {
-        margin-right: 10px;
-      }
-      .about {}
-      .mission {
-        font-size: 16px;
-      }
-    }
+
   }
 </style>

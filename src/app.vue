@@ -106,6 +106,22 @@
     }
   }
 
+  .title {
+    background-color: #303300;
+    border-color: #303300;
+    color: #FFF200;
+    h4 {
+      padding: 0 30px;
+      margin: 0;
+    }
+  }
+
+  .description {
+    p {
+      font-size: 16px;
+    }
+  }
+
   .content {
     .navigation {
       .btn-primary {
