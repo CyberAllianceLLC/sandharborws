@@ -39,9 +39,9 @@ var routes = [
     component: require('./views/tours.vue')
   },
   {
-    name: 'about',
-    path: '/about',
-    component: require('./views/about.vue')
+    name: 'photos',
+    path: '/photos',
+    component: require('./views/photos.vue')
   },
   {
     name: 'contact',
