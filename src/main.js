@@ -29,8 +29,24 @@ Vue.component('v_test', require('./views/components/v_test.vue'));
 //routes
 var routes = [
   {
+    name: 'rentals',
     path: '/',
-    component: require('./views/home.vue')
+    component: require('./views/rentals.vue')
+  },
+  {
+    name: 'tours',
+    path: '/tours',
+    component: require('./views/tours.vue')
+  },
+  {
+    name: 'about',
+    path: '/about',
+    component: require('./views/about.vue')
+  },
+  {
+    name: 'contact',
+    path: '/contact',
+    component: require('./views/contact.vue')
   },
   {
     name: 'error',

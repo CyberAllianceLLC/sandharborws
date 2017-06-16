@@ -26,12 +26,24 @@
       </div>
     </div>
 
-    <!-- view -->
-    <div class="container">
+    <!-- content -->
+    <div class="content container">
       <div class="row">
         <div class="col-md-1 col-lg-2"></div>
         <div class="col-md-10 col-lg-8">
-          <router-view :key="$route.fullPath"></router-view>
+          <!-- navigation -->
+          <div class="navigation btn-group btn-group-justified" role="group">
+            <router-link to="/" role="button" class="btn btn-primary" active-class="active" exact><i class="fa fa-anchor"></i><br/>Rentals</router-link>
+            <router-link to="/tours" role="button" class="btn btn-primary" active-class="active" exact><i class="fa fa-map-o"></i><br/>Tours</router-link>
+            <router-link to="/about" role="button" class="btn btn-primary" active-class="active" exact><i class="fa fa-users"></i><br/>About</router-link>
+            <router-link to="/contact" role="button" class="btn btn-primary" active-class="active" exact><i class="fa fa-comments"></i><br/>Contact</router-link>
+          </div>
+          <!-- views -->
+          <div class="views panel panel-default">
+            <div class="panel-body">
+              <router-view :key="$route.fullPath"></router-view>
+            </div>
+          </div>
         </div>
         <div class="col-md-1 col-lg-2"></div>
       </div>
@@ -63,6 +75,28 @@
       img {
         width: 100%;
       }
+    }
+  }
+
+  .content {
+    .navigation {
+      .btn-primary {
+        background-color: #303300;
+        border-color: #303300;
+      }
+      .btn-primary:hover {
+        color: #000000;
+        background-color: #C2CB00;
+        border-color: #ffffff;
+      }
+      .active {
+        color: #000000;
+        background-color: #C2CB00;
+        border-color: #ffffff;
+      }
+    }
+    .views {
+      background: #FFF5B3;
     }
   }
 </style>

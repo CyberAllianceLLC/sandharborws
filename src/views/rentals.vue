@@ -1,11 +1,11 @@
 <template>
-  <div class="error">
-    <h3>Error page</h3>
+  <div class="rentals">
+    <h3>Rentals page</h3>
   </div>
 </template>
 
 <style lang="less" rel="stylesheet/less">
-  .error {
+  .rentals {
 
   }
 </style>

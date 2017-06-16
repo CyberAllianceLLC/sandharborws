@@ -13,6 +13,6 @@
   }
 </script>
 
-<style lang="scss" rel="stylesheet/scss">
+<style lang="less" rel="stylesheet/less">
 
 </style>
