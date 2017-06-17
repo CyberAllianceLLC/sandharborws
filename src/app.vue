@@ -116,6 +116,10 @@
       img {
         width: 100%;
       }
+      .item {
+        left: 0 !important;
+        .transition(opacity 1.5s);
+      }
     }
   }
 
