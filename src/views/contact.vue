@@ -1,23 +1,28 @@
 <template>
   <div class="contact">
-    <div class="alert title">
-      <span class="pull-left"><i class="fa fa-lg fa-anchor"></i></span>
-      <h4>Contact us</h4>
-    </div>
+    <!-- contact us -->
+    <h3>
+      <i class="fa fa-comments"></i>
+      Contact Us
+    </h3>
+    <hr/>
     <div class="description">
       <div class="row">
         <div class="col-md-6">
-          <a href="imgs/sandharborws_LagoTahoe.png">
-            <img src="imgs/sandharborws_LagoTahoe.png" width="100%">
+          <a href="/imgs/sandharborws_LagoTahoe.png">
+            <img src="/imgs/sandharborws_LagoTahoe.png" width="100%">
           </a>
         </div>
         <div class="col-md-6">
           <br/>
-          <button role="button" class="btn btn-primary btn-lg btn-block">Rentals</button>
+          <!-- Book online button -->
+          <a href="https://booking.bookinghound.com/rezfe/book?og=f74b4e0a-a7e5-4ec2-95f5-5588152f35fe&mode=al" type="button" class="btn btn-primary btn-lg btn-block">
+            <i class="fa fa-shopping-cart"></i> Click Here to Book Online
+          </a>
           <br/>
           <p class="about">
             <i class="fa fa-phone"></i>
-            +1 (775) 830-2812
+            (775) 830-2812
           </p>
           <p class="about">
             <i class="fa fa-envelope"></i>
@@ -35,10 +40,12 @@
       </div>
     </div>
     <br/>
-    <div class="alert title">
-      <span class="pull-left"><i class="fa fa-lg fa-anchor"></i></span>
-      <h4>Directions</h4>
-    </div>
+    <!-- directions -->
+    <h3>
+      <i class="fa fa-map-marker"></i>
+      Directions
+    </h3>
+    <hr/>
     <div class="description">
       <p>
         <strong>From South Shore:</strong> Take Hwy 50 east and right before Spooner summit turn left onto Hwy 28 and enjoy the 8 mile
@@ -58,10 +65,12 @@
       </p>
     </div>
     <br/>
-    <div class="alert title">
-      <span class="pull-left"><i class="fa fa-lg fa-anchor"></i></span>
-      <h4>About Us</h4>
-    </div>
+    <!-- about us -->
+    <h3>
+      <i class="fa fa-users"></i>
+      About Us
+    </h3>
+    <hr/>
     <div class="description">
       <p>
         Sand Harbor Water Sports takes pride in delivering and creating a safe and memorable aquatic experience on Lake
@@ -77,7 +86,7 @@
         As you ride our <strong>Sea Doo’s (Jet Skis)</strong> onto Lake Tahoe's crystal clear waters, what you once thought to be
         spectacular turns into the experience of a lifetime.
       </p>
-      <img src="imgs/sandharborws_aboutus.png" width="100%">
+      <img src="/imgs/sandharborws_aboutus.png" width="100%">
     </div>
   </div>
 </template>
