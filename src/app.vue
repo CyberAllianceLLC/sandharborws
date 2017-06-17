@@ -86,6 +86,7 @@
   @import "../node_modules/toastr/toastr.less";
   @import (inline) "../node_modules/nprogress/nprogress.css";
   @import "../node_modules/font-awesome/less/font-awesome.less";
+  @import (inline) "../node_modules/swiper/dist/css/swiper.min.css";
   @fa-font-path: "/fonts/";
 
   //==== Theme ====
@@ -132,12 +133,12 @@
       .btn-primary:hover {
         color: #2B2D01;
         background-color: #C2CB00;
-        border-color: #ffffff;
+        border-color: #FFF5B3;
       }
       .active {
         color: #2B2D01;
         background-color: #C2CB00;
-        border-color: #ffffff;
+        border-color: #FFF5B3;
       }
     }
     .views {

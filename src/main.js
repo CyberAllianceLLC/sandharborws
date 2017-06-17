@@ -4,6 +4,7 @@ global.toastr = require('toastr');
 global.nprogress = require('nprogress');
 global._ = require('lodash');
 global.moment = require('moment');
+global.swiper = require('swiper');
 require('bootstrap');
 
 var Vue = require('vue');
