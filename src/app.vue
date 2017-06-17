@@ -89,8 +89,6 @@
 
 <style lang="less" rel="stylesheet/less">
   @import "../node_modules/bootstrap/less/bootstrap.less";
-  @import "../node_modules/toastr/toastr.less";
-  @import (inline) "../node_modules/nprogress/nprogress.css";
   @import "../node_modules/font-awesome/less/font-awesome.less";
   @import (inline) "../node_modules/swiper/dist/css/swiper.min.css";
   @fa-font-path: "/fonts/";
