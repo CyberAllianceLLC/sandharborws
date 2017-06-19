@@ -21,19 +21,19 @@
           </a>
           <br/>
           <p class="about">
-            <i class="fa fa-phone"></i>
+            <i class="fa fa-phone"></i>&nbsp;&nbsp;
             (775) 830-2812
           </p>
           <p class="about">
-            <i class="fa fa-envelope"></i>
+            <i class="fa fa-envelope"></i>&nbsp;&nbsp;
             sandharborws@aol.com
           </p>
           <p class="about">
-            <i class="fa fa-globe"></i>
+            <i class="fa fa-globe"></i>&nbsp;&nbsp;
             sandharborws.com
           </p>
           <p class="about">
-            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-facebook-official"></i>&nbsp;&nbsp;
             <a href="https://www.facebook.com/sand.watersports">facebook</a>
           </p>
         </div>
