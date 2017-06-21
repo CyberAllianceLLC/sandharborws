@@ -9,6 +9,7 @@
           <div class="backshadow">
             <!-- slideshow carousel -->
             <div id="header-carousel" class="carousel slide" data-ride="carousel">
+              <!-- images -->
               <div class="carousel-inner">
                 <div class="item active">
                   <img src="/imgs/slides/slide_1.jpg">
@@ -37,6 +38,12 @@
                 <div class="item">
                   <img src="/imgs/slides/slide_9.jpg">
                 </div>
+              </div>
+              <!-- button -->
+              <div class="carousel-caption">
+                <a href="https://booking.bookinghound.com/rezfe/book?og=f74b4e0a-a7e5-4ec2-95f5-5588152f35fe&mode=al" type="button" class="btn btn-default">
+                  <i class="fa fa-shopping-cart"></i> Book Online!
+                </a>
               </div>
             </div>
 
@@ -119,6 +126,24 @@
       .item {
         left: 0 !important;
         .transition(opacity 1.5s);
+      }
+      .carousel-caption {
+        top: 30%;
+        @media (min-width: 768px) {
+          top: 40%;
+        }
+        .btn {
+          border-radius: 24px;
+        }
+        .btn-default {
+          background-color: #F8F255;
+          border: 5px solid #9F9E10;
+        }
+        .btn-default:hover {
+          background-color: #B09F21;
+          border: 5px solid red;
+          color: white;
+        }
       }
     }
   }
