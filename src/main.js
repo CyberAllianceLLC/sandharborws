@@ -46,17 +46,17 @@ var routes = [
 
 //init router
 global.router = new VueRouter({
-  routes: routes
-  /*
+  routes: routes,
   mode: 'history',
   scrollBehavior: function(to, from, savedPosition) {
-    if(savedPosition) {
+    if(to.hash) {
+      return {selector: to.hash}
+    }else if(savedPosition){
       return savedPosition
     }else{
       return { x: 0, y: 0 }
     }
   }
-  */
 });
 
 //start app

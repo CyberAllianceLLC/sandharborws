@@ -1,7 +1,7 @@
 <template>
   <div class="contact">
     <!-- contact us -->
-    <h3>
+    <h3 id="contact">
       <i class="fa fa-comments"></i>
       Contact Us
     </h3>
@@ -41,7 +41,7 @@
     </div>
     <br/>
     <!-- directions -->
-    <h3>
+    <h3 id="directions">
       <i class="fa fa-map-marker"></i>
       Directions
     </h3>
@@ -66,7 +66,7 @@
     </div>
     <br/>
     <!-- about us -->
-    <h3>
+    <h3 id="about">
       <i class="fa fa-users"></i>
       About Us
     </h3>

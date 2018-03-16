@@ -1,7 +1,7 @@
 <template>
   <div class="tours description">
     <!-- tours -->
-    <h3>
+    <h3 id="tours">
       <i class="fa fa-map-o"></i>
       Tours
     </h3>

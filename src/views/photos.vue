@@ -1,7 +1,7 @@
 <template>
   <div class="photos">
     <!-- photos -->
-    <h3>
+    <h3 id="photos">
       <i class="fa fa-picture-o"></i>
       Photos
     </h3>
@@ -27,19 +27,19 @@
     data() {
       return {
         pictures: [
-          'imgs/slideshow/slideshow/www.sandharborws.com_001.jpg',
-          'imgs/slideshow/slideshow/www.sandharborws.com_002.jpg',
-          'imgs/slideshow/slideshow/www.sandharborws.com_003.jpg',
-          'imgs/slideshow/slideshow/www.sandharborws.com_004.jpg',
-          'imgs/slideshow/slideshow/www.sandharborws.com_005.jpg',
-          'imgs/slideshow/slideshow/www.sandharborws.com_006.jpg',
-          'imgs/slideshow/slideshow/www.sandharborws.com_007.jpg',
-          'imgs/slideshow/slideshow/www.sandharborws.com_008.jpg',
-          'imgs/slideshow/slideshow/www.sandharborws.com_009.jpg',
-          'imgs/slideshow/slideshow/www.sandharborws.com_010.jpg',
-          'imgs/slideshow/slideshow/www.sandharborws.com_011.jpg',
-          'imgs/slideshow/slideshow/www.sandharborws.com_012.jpg',
-          'imgs/slideshow/slideshow/www.sandharborws.com_013.jpg',
+          'imgs/slideshow/001.jpg',
+          'imgs/slideshow/002.jpg',
+          'imgs/slideshow/003.jpg',
+          'imgs/slideshow/004.jpg',
+          'imgs/slideshow/005.jpg',
+          'imgs/slideshow/006.jpg',
+          'imgs/slideshow/007.jpg',
+          'imgs/slideshow/008.jpg',
+          'imgs/slideshow/009.jpg',
+          'imgs/slideshow/010.jpg',
+          'imgs/slideshow/011.jpg',
+          'imgs/slideshow/012.jpg',
+          'imgs/slideshow/013.jpg',
         ]
       }
     },

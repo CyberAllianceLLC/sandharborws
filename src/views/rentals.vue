@@ -1,7 +1,7 @@
 <template>
   <div class="rentals description">
     <!-- rentals -->
-    <h3>
+    <h3 id="rentals">
       <i class="fa fa-anchor"></i>
       Rentals
     </h3>
@@ -22,7 +22,7 @@
     <br/>
 
     <!-- Explore lake Tahoe -->
-    <h3>
+    <h3 id="explore">
       <i class="fa fa-compass"></i>
       Explore Lake Tahoe
     </h3>
