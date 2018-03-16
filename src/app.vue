@@ -127,22 +127,22 @@
                     <div class="panel-body">
                       <!-- Goldfish Properties LLC -->
                       <a href="http://www.goldfishproperties.com/">Goldfish Properties, LLC!</a><br/>
-                      <img src="/imgs/goldfish.gif" alt="Goldfish Properties LLC"><br/>
+                      <a href="http://www.goldfishproperties.com/"><img src="/imgs/goldfish.gif" alt="Goldfish Properties LLC"></a><br/>
                       <small>Properties and Rentals</small><br/>
 
                       <!-- Michael's Reno Power Sports-->
                       <a href="https://www.michaelsreno.com/">Michael's Reno Power Sports</a><br/>
-                      <img src="/imgs/MichaelsReno.gif" alt="Michael's Reno Power Sports"><br/>
+                      <a href="https://www.michaelsreno.com/"><img src="/imgs/MichaelsReno.gif" alt="Michael's Reno Power Sports"></a><br/>
                       <small>Watercraft's for sale</small><br/>
 
                       <!-- Nevada Department Of Wildlife -->
                       <a href="http://www.ndow.org/">Nevada Dept. Of Wildlife</a><br/>
-                      <img src="/imgs/WildLife.gif" alt="Nevada Department Of Wildlife"><br/>
+                      <a href="http://www.ndow.org/"><img src="/imgs/WildLife.gif" alt="Nevada Department Of Wildlife"></a><br/>
                       <small>Boating education</small><br/>
 
                       <!-- Lake Tahoe Boat Rentals -->
                       <a href="http://www.tahoeboatrentals.com/">Lake Tahoe Boat Rentals</a><br/>
-                      <img src="/imgs/RentalBoats.gif" alt="Lake Tahoe Boat Rentals"><br/>
+                      <a href="http://www.tahoeboatrentals.com/"><img src="/imgs/RentalBoats.gif" alt="Lake Tahoe Boat Rentals"></a><br/>
                       <small>Lake Tahoe boat rentals</small><br/>
                     </div>
                   </div>
