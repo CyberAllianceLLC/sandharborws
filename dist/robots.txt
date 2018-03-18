@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: /imgs/old_website_photos
+
