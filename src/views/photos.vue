@@ -6,75 +6,72 @@
       Photos
     </h3>
     <hr/>
+    <!-- images -->
     <div class="swiper-container gallery-top">
       <div class="swiper-wrapper">
-        <div class="swiper-slide" v-for="picture in pictures" :style="{'background-image': 'url(' + picture + ')'}"></div>
+        <div v-for="picture in pictures" :data-background="picture" class="swiper-slide swiper-lazy">
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </div>
       </div>
       <!-- Add Arrows -->
       <div class="swiper-button-next swiper-button-white"></div>
       <div class="swiper-button-prev swiper-button-white"></div>
     </div>
+
+    <!-- thumbnail images -->
     <div class="swiper-container gallery-thumbs hidden-xs">
       <div class="swiper-wrapper">
-        <div class="swiper-slide" v-for="picture in pictures" :style="{'background-image': 'url(' + picture + ')'}"></div>
+        <div v-for="picture in pictures" :data-background="picture" class="swiper-slide swiper-lazy">
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </div>
       </div>
     </div>
+
   </div>
 </template>
 
 <script>
   export default {
     data() {
+      var pictures = [];
+
+      for(var i = 1; i <= 224; i++) {
+        pictures.push('imgs/slideshow/' + i + '.jpg');
+      }
+
       return {
-        pictures: [
-          'imgs/slideshow/001.jpg',
-          'imgs/slideshow/002.jpg',
-          'imgs/slideshow/003.jpg',
-          'imgs/slideshow/004.jpg',
-          'imgs/slideshow/005.jpg',
-          'imgs/slideshow/006.jpg',
-          'imgs/slideshow/007.jpg',
-          'imgs/slideshow/008.jpg',
-          'imgs/slideshow/009.jpg',
-          'imgs/slideshow/010.jpg',
-          'imgs/slideshow/011.jpg',
-          'imgs/slideshow/012.jpg',
-          'imgs/slideshow/013.jpg',
-        ]
+        pictures: pictures
       }
     },
     mounted: function (vm = this) {
-      var galleryTop = new Swiper('.gallery-top', {
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
+      var galleryTop = new swiper('.gallery-top', {
         grabCursor: true,
         centeredSlides: true,
-        paginationClickable: true,
-        slidesPerView: 'auto',
-        autoplay: 5000,
-        speed: 600,
-        autoplayDisableOnInteraction: false,
-        spaceBetween: 30
+        lazy: {
+          loadPrevNext: true
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: true,
+        }
       });
-      var galleryThumbs = new Swiper('.gallery-thumbs', {
-        pagination: '.swiper-pagination',
-        effect: 'coverflow',
+      var galleryThumbs = new swiper('.gallery-thumbs', {
         spaceBetween: 10,
         centeredSlides: true,
         slidesPerView: 'auto',
-        grabCursor: true,
-        touchRatio: 0.6,
+        touchRatio: 0.2,
         slideToClickedSlide: true,
-        coverflow: {
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows : true
+        lazy: {
+          loadPrevNext: true,
+          loadPrevNextAmount: 10
         }
       });
-      galleryTop.params.control = galleryThumbs;
-      galleryThumbs.params.control = galleryTop;
+      galleryTop.controller.control = galleryThumbs;
+      galleryThumbs.controller.control = galleryTop;
     }
   }
 </script>

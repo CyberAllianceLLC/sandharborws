@@ -144,6 +144,11 @@
                       <a href="http://www.tahoeboatrentals.com/">Lake Tahoe Boat Rentals</a><br/>
                       <a href="http://www.tahoeboatrentals.com/"><img src="/imgs/RentalBoats.gif" alt="Lake Tahoe Boat Rentals"></a><br/>
                       <small>Lake Tahoe boat rentals</small><br/>
+
+                      <!-- Sustain Tahoe -->
+                      <a href="http://sustaintahoe.org/">Sustain Tahoe</a><br/>
+                      <a href="http://sustaintahoe.org/"><img src="/imgs/sustainTahoe.png" alt="Sustain Tahoe"></a><br/>
+                      <small>Tahoe adventure guide</small><br/>
                     </div>
                   </div>
 

@@ -12,7 +12,7 @@
       <i class="fa fa-shopping-cart"></i> Click Here to Book Online
     </a>
 
-    <img src="/imgs/sandharborws_Features.png" width="100%"/>
+    <img :src="'/imgs/year/'+ new Date().getFullYear() +'.png'" width="100%"/>
     <img src="/imgs/sandharborws_Rentals.png" width="100%"/>
 
     <!-- Book online button -->

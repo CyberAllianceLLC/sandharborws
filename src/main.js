@@ -39,8 +39,12 @@ var routes = [
     component: require('./views/error.vue')
   },
   {
+    path: '/index.php',
+    redirect: '/'
+  },
+  {
     path: '*',
-    redirect: '/error'
+    component: require('./views/error.vue')
   }
 ];
 
