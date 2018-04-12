@@ -21,6 +21,14 @@
     </a>
     <br/>
 
+    <!-- disclaimer -->
+    <ul>
+      <li>Jet Skis available for Immediate Pick up.</li>
+      <li>Ideal for all ages. You must be 18 years old to drive and 21 years old to carry passengers under the age of 18.</li>
+      <li>Prices Include: Gas, Life vests and Taxes.</li>
+      <li><router-link to="/disclaimer">Disclaimer</router-link></li>
+    </ul>
+
     <!-- Explore lake Tahoe -->
     <h3 id="explore">
       <i class="fa fa-compass"></i>
@@ -45,6 +53,8 @@
 
 <style lang="less" rel="stylesheet/less">
   .rentals {
-
+    ul {
+      font-size: 16px;
+    }
   }
 </style>
